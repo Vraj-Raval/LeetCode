@@ -1,3 +1,4 @@
+/**
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -56,8 +57,8 @@ Output:
 | Max       |
 +-----------+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**/
 
-# Write your MySQL query statement below
 select name as Customers from Customers
 where id not in(
     select customerId
